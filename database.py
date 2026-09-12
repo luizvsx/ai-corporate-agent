@@ -2,10 +2,6 @@ from sqlalchemy import create_engine, Column, Integer, Text
 from sqlalchemy.orm import declarative_base, sessionmaker
 
 #String de conexao com o postegresql local
-#Formato: postgres ql://usuario:senha@localhost:5432/nome_do_banco
-# A senha agora é 'admin' e o usuário é 'admin'
-# Só trocar a senha para 1234
-# A senha agora é 'admin' e o usuário é 'admin'
 DATABASE_URL = "postgresql://admin:admin@localhost:5432/agente_rh"
 
 #Cria "motor" de conexao
